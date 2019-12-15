@@ -32,6 +32,7 @@ group :test do
   gem 'rspec-rails', '~> 3.9'
   gem 'factory_girl_rails', '~> 4.9'
   gem 'ffaker', '~> 2.13'
+  gem 'shoulda-matchers', '~> 4.1', '>= 4.1.2'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
