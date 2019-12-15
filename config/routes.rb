@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   # I set JSON as default
   namespace :api, defaults: { format: :json },
             constraints: { subdomain: 'api' }, path: '/' do
+    scope module: :v1 do
 
+    end
   end
 end
