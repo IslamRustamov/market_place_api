@@ -7,11 +7,13 @@ gem 'rails', '~> 6.0.2'
 gem 'puma', '~> 4.1'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'jquery-rails'
-gem 'active_model_serializers'
+gem 'active_model_serializers', '~> 0.10.10'
 gem 'coffee-rails', '~> 5.0'
 gem 'sass-rails', '~> 6.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'devise', '~> 4.7', '>= 4.7.1'
+gem 'font-awesome-rails'
+gem 'simple_form'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
