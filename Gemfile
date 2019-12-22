@@ -6,13 +6,9 @@ ruby '2.6.3'
 gem 'rails', '~> 6.0.2'
 gem 'puma', '~> 4.1'
 gem 'bootsnap', '>= 1.4.2', require: false
-gem 'jquery-rails'
 gem 'active_model_serializers', '~> 0.10.10'
-gem 'coffee-rails', '~> 5.0'
-gem 'sass-rails', '~> 6.0'
 gem 'uglifier', '>= 1.3.0'
-gem 'devise', '~> 4.7', '>= 4.7.1'
-gem 'font-awesome-rails'
+gem 'devise', '~> 4.1'
 gem 'simple_form'
 
 group :development, :test do
