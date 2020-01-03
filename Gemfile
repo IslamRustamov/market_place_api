@@ -13,6 +13,8 @@ gem 'simple_form'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'factory_girl_rails', '~> 4.9'
+  gem 'ffaker', '~> 2.13'
 end
 
 group :development do
@@ -28,8 +30,6 @@ end
 
 group :test do
   gem 'rspec-rails', '~> 3.9'
-  gem 'factory_girl_rails', '~> 4.9'
-  gem 'ffaker', '~> 2.13'
   gem 'shoulda-matchers', '~> 4.1', '>= 4.1.2'
 end
 
